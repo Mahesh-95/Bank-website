@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock up 1</title>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="notification"><i class="far fa-bell"></i><i class="fas fa-circle"></i></div>
+        <div class="sidebar">
+            <a href="#" class="logo"><i class="fab fa-earlybirds"></i></a>
+            <div class="searchbox">
+                <input type="text" placeholder="search">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <ul>
+                <li><a href="#" class="active"><i class="fas fa-home"></i></a></li>
+                <li><a href="#"><i class="far fa-address-card"></i></a></li>
+                <li><a href="#"><i class="far fa-list-alt"></i></a></li>
+                <li><a href="#"><i class="far fa-user"></i></a></li>
+            </ul>
+        </div>
+        <div class="profile">
+            <div class="user-info">
+                <img class="profile-img" src="./images//download.jpg" alt="">
+                <div class="user-name">
+                    <h1>Hi Mike,</h1>
+                    <p>welcome back,</p>
+                </div>
+            </div>
+            <div class="account-detail">
+                <h4>Today</h4>
+                <div class="detail">
+                    <h1>$19,892</h1>
+                    <p>Account Balance</p>
+                </div>
+                <div class="detail">
+                    <h4>$4,000</h4>
+                    <p>Year-to-Date Contribution</p>
+                </div>
+                <div class="detail">
+                    <h4>$1,892</h4>
+                    <p>Total interest</p>
+                </div>
+                <div class="dropdown">
+                    <span>I want to <i class="fas fa-sort-down"></i></span>
+                    <ul class="dropdown-content">
+                        <li>invest</li>
+                        <li>deposit</li>
+                        <li>withdraw/li>
+                    </ul>
+                </div>
+                <div class="recent-trans">
+                    <h4>Recent Transactions</h4>
+                    <div class="recent-trans-details">
+                        <p>2020-08-07</p>
+                        <h5>Withdrawal Transfer to Bank-xxx11</h5>
+                        <hr>
+                    </div>
+                    <div class="recent-trans-details">
+                        <p>2020-07-07</p>
+                        <h5>Withdrawal Transfer to Bank-xxx11</h5>
+                        <hr>
+                    </div>
+                    <div class="recent-trans-details">
+                        <p>2020-06-07</p>
+                        <h5>Withdrawal Transfer to Bank-xxx11</h5>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <h4 class="color">Retirement Income</h4>
+            <h2>Starting Year 2056</h2>
+            <div class="stats">
+                <div class="stats-detail">
+                    <h2>$300,000</h2>
+                    <p>My Goal</p>
+                    <hr>
+                </div>
+                <div class="stats-detail">
+                    <h2>59%</h2>
+                    <p>Goal Achieved</p>
+                    <hr>
+                </div>
+                <div class="stats-detail">
+                    <h2>$300</h2>
+                    <p>Est. Monthly Income</p>
+                    <hr>
+                </div>
+            </div>
+            <h3>Contributions Overtime</h3>
+            <div class="graph">
+                <canvas id="myChart"></canvas>
+            </div>
+            <div>
+                <h3>How do I compare to my peers?</h3>
+                <p>These represent current goal achievement</p>
+            </div>
+            <div class="goal">
+                <div>
+                    <div class="goal-info">
+                        <label for="age">Age:</label>
+                        <select name="age">
+                            <option value="30">Under 30</option>
+                            <option value="40">Under 40</option>
+                            <option value="50">Under 50</option>
+                        </select>
+                    </div>
+                    <div class="goal-info">
+                        <label for="salary">Salary:</label>
+                        <select name="salary">
+                            <option value="30">K20-K30</option>
+                            <option value="40">K30-K40</option>
+                            <option value="50">K40-K50</option>
+                        </select>
+                    </div>
+                    <div class="goal-info">
+                        <label for="gender">Gender:</label>
+                        <select name="gender">
+                            <option value="30">Male</option>
+                            <option value="40">Female</option>
+                            <option value="50">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="goal-achieve">
+                    <div class="rings">
+                        <div class="rings">
+                            <div class="percent1">
+                                <svg>
+                                <circle cx="40" cy="40" r="40"></circle>
+                                <circle cx="40" cy="40" r="40"></circle>
+                                </svg>
+                                <div class="number">
+                                <h2>75<span>%</span></h2>
+                                </div>
+                            </div>
+                            <div class="percent2">
+                                <svg>
+                                <circle cx="40" cy="40" r="40"></circle>
+                                <circle cx="40" cy="40" r="40"></circle>
+                                </svg>
+                                <div class="number">
+                                <h2>95<span>%</span></h2>
+                                </div>
+                            </div>
+                            <div class="percent3">
+                                <svg>
+                                    <circle cx="40" cy="40" r="40"></circle>
+                                    <circle cx="40" cy="40" r="40"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>59<span>%</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="retire-strategy">
+            <div class="container">
+                <h3>Retirement Strategy</h3>
+                <div class="setrange">
+                    <h4>Employee Contribution</h4>
+                    <input type="range" min="1" max="100" value="50" id="range" />
+                </div>
+                <div class="setrange">
+                    <h4>Retirement Age</h4>
+                    <input type="range" min="1" max="100" value="50" id="range">  
+                </div>
+                <div class="strategy">
+                    <h4>Employer Contribution</h4><span>8.4%</span>
+                    <br>
+                    <br>
+                    <h4>Interest Rate</h4><span>8.4%</span>        
+                </div>
+                <button class="update">Update</button>
+                <a class="docs" href="#">View Help Docs ></a>
+            </div>
+            <div class="details">
+                <p class="question">Are you considering a</p>
+                <h4>Housing Advance</h4>
+                <p>Limited time reduced interest.</p>
+                <a href="#">Learn more ></a>
+            </div>
+        </div>
+    </div>
+<!--
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js" integrity="sha512-hZf9Qhp3rlDJBvAKvmiG+goaaKRZA6LKUO35oK6EsM0/kjPK32Yw7URqrq3Q+Nvbbt8Usss+IekL7CRn83dYmw==" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
